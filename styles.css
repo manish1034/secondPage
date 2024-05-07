@@ -127,6 +127,7 @@ body {
     font-size: 10px;
     font-weight: 100;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .text-5 {
@@ -200,6 +201,7 @@ body {
     color: rgb(224, 224, 224);
     font-size: 10px;
     font-weight: 100;
+    cursor: pointer;
 }
 
 .btn-3 {
@@ -211,6 +213,7 @@ body {
     color: rgb(17, 17, 17);
     font-size: 10px;
     font-weight: 100;
+    cursor: pointer;
 }
 
 .footer {
