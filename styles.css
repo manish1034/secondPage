@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: clip;
+}
+
+/* Navbar  */
+
+.topbar {
+    width: 100%;
+    background-color: rgb(30, 29, 29);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.toprow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+    height: 50px;
+}
+
+.headlogo {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+    /* width: 6rem; */
+}
+
+.topnav {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    width: 100%;
+    list-style: none;
+}
+
+.navitems {
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navitems:hover {
+    color: rgb(27, 35, 46);
+    background-color: #f4f4f4;
+}
+
+/*  button for the navlist */
+.menu-btn {
+    background-color: #fff;
+}
+
+.menu-btn svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.topbar.hide .topnav {
+    height: 0;
+}
+
+
+/* Main-Body */
+
+.section-container {
+    position: relative;
+    /* display: flex; */
+    /* margin-left: 4.5rem; */
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+.sub-section {
+    background-color: #eeeeee;
+    max-height: fit-content;
+    max-width: 100%;
+    margin-top: 3rem;
+    padding-left: 2.8rem;
+    padding-top: 8px;
+    border-radius: 3px;
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 500;
+    color: #333333;
+    letter-spacing: -1px;
+}
+
+.text-3 {
+    max-width: 90%;
+    font-size: 14px;
+    color: #252525;
+    margin-top: -1.8rem;
+    /* letter-spacing: 0.2px; */
+}
+
+.text-4 {
+    max-width: 100%;
+    font-size: 14px;
+    color: #252525;
+    margin-top: -0.7rem;
+}
+
+.btn {
+    background: #428bca;
+    border: none;
+    border-radius: 2px;
+    height: 1.5rem;
+    width: 5.2rem;
+    color: rgb(224, 224, 224);
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.text-5 {
+    max-width: 100%;
+    font-size: 17px;
+    color: #323232;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+
+.card-section {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin: 1rem auto;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 13.8rem;
+    width: 185px;
+    border: 0.5px solid #cccccc; 
+    border-radius: 4px;
+}
+
+.imgdiv {
+    height: 112px;
+    width: 178px;
+    background: #cccccc;
+    margin-left: 3px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.text-6 {
+    margin-top: 2.8rem;
+    color: #7b7b7b;
+    font-weight: 600;
+}
+
+.text-7 {
+    max-width: 100%;
+    font-size: 17px;
+    color: #323232;
+    margin-top: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-8 {
+    max-width: 90%;
+    font-size: 10px;
+    color: #323232;
+    margin-top: -0.5rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn-2 {
+    background: #428bca;
+    border: none;
+    border-radius: 2px;
+    height: 1.4rem;
+    width: 3.5rem;
+    color: rgb(224, 224, 224);
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.btn-3 {
+    background: #ffff;
+    border:  0.5px solid #d6d3d3;
+    border-radius: 2px;
+    height: 1.4rem;
+    width: 3.5rem;
+    color: rgb(17, 17, 17);
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-left:5rem;
+    margin-right:5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top: 1px solid #ccc;
+}
+
+@media (min-width:768px) {
+    .menu-btn {
+        display: none;
+    }
+
+    .topbar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 0 0.8rem;
+    }
+
+    .topnav {
+        display: flex;
+        margin-left: 2rem;
+        height: unset !important;
+    }
+
+    .navbar li {
+        max-width: max-content;
+    }
+
+    .navitems {
+        margin: 0 0.5rem;
+        padding: 0.3rem 0.8rem;
+    }
+  
+}
