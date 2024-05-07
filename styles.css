@@ -223,6 +223,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     border-top: 1px solid #ccc;
+    font-size: smaller;
 }
 
 @media (min-width:768px) {
